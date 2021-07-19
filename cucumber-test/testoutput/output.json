@@ -1,0 +1,102 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-07-16T05:22:54.083Z",
+        "line": 3,
+        "name": "To test login application with valid condition",
+        "description": "",
+        "id": "to-validate-login-application;to-test-login-application-with-valid-condition",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6298000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I should be in login page",
+            "match": {
+              "location": "definition.definition.i_should_be_in_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter username as \"Admin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Admin\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definition.definition.i_enter_username_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2165000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter password as \"admin123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "definition.definition.i_enter_password_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5450000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on submit button",
+            "match": {
+              "location": "definition.definition.i_click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8340000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see username as \"Welcome Paul\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Welcome Paul\"",
+                  "offset": 25
+                }
+              ],
+              "location": "definition.definition.i_should_see_username_as(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To validate Login application",
+    "description": "",
+    "id": "to-validate-login-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Login/login.feature",
+    "tags": []
+  }
+]
